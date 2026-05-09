@@ -21,7 +21,7 @@ jobs:
           mkdir -p public
           typst compile --features html --format html index.typ public/index.html
           cp -r files public/ || true
-          cp index.typ public/
+          cp index.typ public/index.typ.txt
       - name: Upload static files as artifact
         uses: actions/upload-pages-artifact@v5
         with:
