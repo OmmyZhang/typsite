@@ -2,7 +2,7 @@ name: Deploy Typst HTML to GitHub Pages
 
 on:
   push:
-    branches: ["main"] # Update if your default branch is 'master'
+    branches: ["master"] # Update if your default branch is 'master'
   workflow_dispatch: # Allows manual triggering from the Actions tab
 
 concurrency:
@@ -20,7 +20,7 @@ jobs:
       - run: |
           mkdir -p public
           typst compile --features html --format html index.typ public/index.html
-          cp -r files public/
+          cp -r files public/ || true
           cp index.typ public/
       - name: Upload static files as artifact
         uses: actions/upload-pages-artifact@v5
