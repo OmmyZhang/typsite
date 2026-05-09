@@ -1,0 +1,42 @@
+name: Deploy Typst HTML to GitHub Pages
+
+on:
+  push:
+    branches: ["main"] # Update if your default branch is 'master'
+  workflow_dispatch: # Allows manual triggering from the Actions tab
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v6
+      - uses: typst-community/setup-typst@v5
+      - run: |
+          mkdir -p public
+          typst compile --features html --format html index.typ public/index.html
+          cp -r files public/
+          cp index.typ public/
+      - name: Upload static files as artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: public/
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
