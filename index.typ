@@ -9,7 +9,7 @@ I received my bachelor's degree from the Department of Computer Science and Tech
 I currently mainly work on quantum cryptography, but my interests lie broadly in theoretical computer science and quantum computing.
 
 
-#link("/files/CV.pdf")[CV]
+#link("files/CV.pdf")[CV]
 #elem(
   tag: "span",
   class: "checksum-label",
@@ -38,6 +38,6 @@ I currently mainly work on quantum cryptography, but my interests lie broadly in
 #elem(
   class: "footnote",
   [
-    This page is written in Typst with the experimental HTML export feature. You can view the plain text source #link("/files/index.typ")[here].
+    This page is written in Typst with the experimental HTML export feature. You can view the plain text source #link("index.typ")[here].
   ],
 )
