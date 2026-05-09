@@ -6,7 +6,7 @@ body {
     background: linear-gradient(
             -45deg,
             #e8e8e8 calc(50%),
-            #e0d8d0 50%,
+            #e0d0c0 50%,
             #e8e8e8 calc(50% + 0.5px)
         )
         0 0/7px 5px;
