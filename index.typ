@@ -1,20 +1,14 @@
 #import "html_tools.typ": *
 
-= Zhang YaoNan
-
-I am a second-year PhD student at Centre for Quantum Technologies (CQT), National University of Singapore. I am fortunate to be advised by #link("https://www.comp.nus.edu.sg/~rahul/")[Prof. Rahul Jain].
-
-I received my bachelor's degree from the Department of Computer Science and Technology, Tsinghua University. Before starting my PhD, I spent several enjoyable years at Douban Inc. as a developer.
-
-I currently mainly work on quantum cryptography, but my interests lie broadly in theoretical computer science and quantum computing.
-
-
-#link("files/CV.pdf")[CV]
-#elem(
-  tag: "span",
-  class: "checksum-label",
-  [checksum: #raw("c0ffe")],
+#set document(
+  title: "Zhang YaoNan",
+  description: "Academic homepage of Zhang YaoNan, PhD candidate at CQT, NUS.",
 )
+
+#show: html-container
+
+
+= Zhang YaoNan
 
 #elem(
   class: "email-label",
@@ -23,6 +17,19 @@ I currently mainly work on quantum cryptography, but my interests lie broadly in
   ),
 )
 
+I am a second-year PhD student at #link("https://www.cqt.sg/")[Centre for Quantum Technologies] (CQT), National University of Singapore. I am fortunate to be advised by #link("https://www.comp.nus.edu.sg/~rahul/")[Prof. Rahul Jain].
+
+Previously, I received my bachelor's degree from the Department of Computer Science and Technology, Tsinghua University. Before starting my PhD, I spent several enjoyable years at Douban Inc. as a development engineer.
+
+I currently mainly work on quantum cryptography, but my interests lie broadly in theoretical computer science and quantum computing.
+
+
+[#link("files/CV.pdf")[CV]]
+#elem(
+  tag: "span",
+  class: "checksum-label",
+  [checksum: #raw("c0ffe")],
+)
 
 == Preprints & Publications
 
@@ -38,6 +45,6 @@ I currently mainly work on quantum cryptography, but my interests lie broadly in
 #elem(
   class: "footnote",
   [
-    This page is written in Typst with the experimental HTML export feature. You can view the plain text source #link("index.typ.txt")[here].
+    This page is written in Typst with the experimental HTML feature. View the plain text source #link("index.typ.txt")[here].
   ],
 )

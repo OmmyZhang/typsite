@@ -7,3 +7,12 @@
     }
   }
 }
+
+#let html-container(doc) = context {
+  if target() == "html" {
+    html.elem("link", attrs: (rel: "stylesheet", href: "files/main.css"))
+    html.elem("div", attrs: (class: "container"), doc)
+  } else {
+    doc
+  }
+}
