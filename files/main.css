@@ -48,8 +48,13 @@ a:hover {
     /*text-align: center;*/
     font-size: 90%;
     /*margin-left: 75px;*/
+    width: fit-content;
 
-    svg:hover use {
+    svg use {
+        fill: currentColor !important;
+    }
+
+    &:hover svg use {
         /* 1. Hide the default black fill so we only see the outlines drawing */
         fill: currentColor !important;
         fill-opacity: 0;
