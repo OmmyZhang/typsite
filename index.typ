@@ -1,20 +1,19 @@
 #import "html_tools.typ": *
+#import "personal_info.typ": email, given-name, surname
 
 #set document(
-  title: "Zhang YaoNan",
-  description: "Academic homepage of Zhang YaoNan, PhD candidate at CQT, NUS.",
+  title: [#surname #given-name],
+  description: [Academic homepage of #surname #given-name, PhD candidate at CQT, NUS.],
 )
 
 #show: html-container
 
 
-= Zhang YaoNan
+= #upper(surname) #given-name
 
 #elem(
   class: "email-label",
-  html.frame(
-    (122, 104, 97, 110, 103, 46, 121, 97, 111, 110, 97, 110).map(str.from-unicode).join() + "@u.nus.edu",
-  ),
+  html.frame(email),
 )
 
 I am a second-year PhD student at #link("https://www.cqt.sg/")[Centre for Quantum Technologies] (CQT), National University of Singapore. I am fortunate to be advised by #link("https://www.comp.nus.edu.sg/~rahul/")[Prof. Rahul Jain].
