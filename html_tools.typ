@@ -11,7 +11,13 @@
 #let html-container(doc) = context {
   if target() == "html" {
     html.elem("link", attrs: (rel: "stylesheet", href: "files/main.css"))
-    html.elem("div", attrs: (class: "container"), doc)
+    html.elem("div", attrs: (class: "container"), {
+      elem(
+        tag: "h1",
+        document.title,
+      )
+      doc
+    })
   } else {
     doc
   }

@@ -2,14 +2,12 @@
 #import "personal_info.typ": email, given-name, surname
 
 #set document(
-  title: [#surname #given-name],
+  title: [#upper(surname) #given-name],
   description: [Academic homepage of #surname #given-name, PhD candidate at CQT, NUS.],
 )
 
 #show: html-container
 
-
-= #upper(surname) #given-name
 
 #elem(
   class: "email-label",
@@ -30,15 +28,15 @@ My interests lie broadly in theoretical computer science and quantum computing, 
   [checksum: #raw("c0ffe")],
 )
 
-== Preprints & Publications
+= Preprints & Publications
 
-== Talks
+= Talks
 
-== Teaching
+= Teaching
 
-== Open Source Contributions
+= Open Source Contributions
 
-== Miscellaneous
+= Miscellaneous
 
 
 #elem(
