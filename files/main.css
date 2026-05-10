@@ -5,9 +5,9 @@
 body {
     background: linear-gradient(
             -45deg,
-            #e8e8e8 calc(50%),
-            #e0d0c0 50%,
-            #e8e8e8 calc(50% + 0.5px)
+            #fbfbf8 calc(50%),
+            #fbf1c7 50%,
+            #fbfbf8 calc(50% + 1px)
         )
         0 0/7px 5px;
     padding: 0;
@@ -17,8 +17,8 @@ body {
 .container {
     max-width: 900px;
     margin: 0 auto;
-    padding: 15px 25px;
-    font-size: 18px;
+    padding: 15px 20px;
+    font-size: 19px;
     font-family: "EBGaramond", serif;
     min-height: 100vh;
     box-sizing: border-box;
@@ -27,6 +27,8 @@ body {
 h2 {
     /*text-align: center;*/
     font-family: "Lato", sans-serif;
+    font-size: 32px;
+    margin: 20px 0 7px;
 }
 
 h3 {
@@ -44,7 +46,7 @@ a:hover {
 .email-label {
     /*text-align: center;*/
     font-size: 85%;
-    margin-left: 15px;
+    /*margin-left: 75px;*/
 }
 
 .checksum-label {

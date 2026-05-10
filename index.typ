@@ -20,7 +20,7 @@ I am a second-year PhD student at #link("https://www.cqt.sg/")[Centre for Quantu
 
 Previously, I received my bachelor's degree from the Department of Computer Science and Technology, Tsinghua University. Before starting my PhD, I spent several enjoyable years at Douban Inc. as a development engineer.
 
-I currently mainly work on quantum cryptography, but my interests lie broadly in theoretical computer science and quantum computing.
+My interests lie broadly in theoretical computer science and quantum computing, while I currently mainly work on quantum cryptography.
 
 
 [#link("files/CV.pdf")[CV]]
