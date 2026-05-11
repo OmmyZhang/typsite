@@ -29,14 +29,14 @@ body {
 
 h1 {
     /*text-align: center;*/
-    font-family: "EBGaramond", serif;
+    font-family: EBGaramond, serif;
     font-size: 2em;
     margin: 1.25em 0 0.2em;
 }
 
 h2 {
     color: var(--link-color);
-    font-family: "EBGaramond", serif;
+    font-family: EBGaramond, serif;
     font-size: 1.5em;
     margin: 25px 0 5px;
 }
@@ -114,7 +114,7 @@ ul {
     color: #606060;
     font-size: 80%;
     margin-left: 30px;
-    font-family: "sans-serif";
+    font-family: sans-serif;
 }
 
 .main-content {
@@ -123,7 +123,7 @@ ul {
 
 .footnote {
     font-size: 0.85em;
-    font-family: "EBGaramond", serif;
+    font-family: EBGaramond, serif;
     text-align: center;
     margin-top: 50px;
     padding: 0.75em;
@@ -154,18 +154,18 @@ ul {
 
 @font-face {
     font-family: Lato;
-    src: local("Lato"), url("./fonts/Lato-Regular.woff2");
+    src: local("Lato"), url("./fonts/Lato.woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: EBGaramond;
-    src: url("./fonts/EBGaramond-VariableFont_wght.woff2");
+    src: url("./fonts/EBGaramond.woff2");
     font-display: swap;
 }
 
 @font-face {
     font-family: Inter;
-    src: url("./fonts/Inter-VariableFont_opsz\,wght.woff2");
+    src: url("./fonts/Inter.woff2");
     font-display: swap;
 }
