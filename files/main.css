@@ -125,13 +125,9 @@ ul {
     font-family: EBGaramond, serif;
     text-align: center;
     margin-top: 50px;
-    padding: 0.75em;
+    padding: 0.75em 0;
 
     position: relative;
-
-    p {
-        margin: 0.125em 0;
-    }
 }
 
 .footnote::before {
@@ -152,7 +148,7 @@ ul {
 
 @font-face {
     font-family: Lato;
-    src: local("Lato"), url("./fonts/Lato.woff2");
+    src: url("./fonts/Lato.woff2");
     font-display: swap;
 }
 
@@ -164,6 +160,6 @@ ul {
 
 @font-face {
     font-family: Inter;
-    src: local("Inter"), url("./fonts/Inter.woff2");
+    src: url("./fonts/Inter.woff2");
     font-display: swap;
 }
