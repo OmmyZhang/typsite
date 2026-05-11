@@ -19,7 +19,19 @@
         tag: "h1",
         page-heading,
       )
-      doc
+      elem(
+        tag: "div",
+        class: "main-content",
+        doc,
+      )
+      elem(
+        class: "footnote",
+        [
+          This page is written in Typst with the experimental HTML feature.
+
+          View the plain text source #link("index.typ.txt")[here].
+        ],
+      )
     })
   } else {
     doc

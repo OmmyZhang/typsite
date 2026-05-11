@@ -53,11 +53,3 @@ Rishabh Batra, Zhili Chen, Rahul Jain, and YaoNan Zhang \
   #link("https://github.com/python/typeshed")[Python typeshed],
   and #link("https://github.com/redis-rs/redis-rs")[redis-rs].
 - Outside of research, my hobbies include hiking and cycling. I used to hike a lot before moving to Singapore.
-
-
-#elem(
-  class: "footnote",
-  [
-    This page is written in Typst with the experimental HTML feature. View the plain text source #link("index.typ.txt")[here].
-  ],
-)
