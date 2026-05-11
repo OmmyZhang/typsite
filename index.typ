@@ -2,11 +2,12 @@
 #import "personal_info.typ": email, given-name, surname
 
 #set document(
-  title: [#upper(surname) #given-name],
+  title: [#surname #given-name - PhD candidate, CQT],
   description: [Academic homepage of #surname #given-name, PhD candidate at CQT, NUS.],
 )
-
-#show: html-container
+#show: html-container.with(
+  page-heading: [#upper(surname) #given-name],
+)
 
 
 #elem(

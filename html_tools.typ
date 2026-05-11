@@ -8,13 +8,16 @@
   }
 }
 
-#let html-container(doc) = context {
+#let html-container(
+  page-heading: "",
+  doc,
+) = context {
   if target() == "html" {
     html.elem("link", attrs: (rel: "stylesheet", href: "files/main.css"))
     html.elem("div", attrs: (class: "container"), {
       elem(
         tag: "h1",
-        document.title,
+        page-heading,
       )
       doc
     })
