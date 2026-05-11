@@ -31,13 +31,28 @@ My interests lie broadly in theoretical computer science and quantum computing, 
 
 = Preprints & Publications
 
+*Scalable, quantum-accessible, and adaptive pseudorandom quantum state and pseudorandom function-like quantum state generators*, _CRYPTO 2026_ \
+Rishabh Batra, Zhili Chen, Rahul Jain, and YaoNan Zhang \
+
+
 = Talks
 
 = Teaching
 
-= Open Source Contributions
+- Teaching Assistant of _CS3268, Introduction to Information Theory_, Spring 2025
+- Teaching Assistant of _CS4236, Cryptography Theory and Practice_, Fall 2025
+- Teaching Assistant of _ CS4230/CS5430, Foundations of Cryptography_, Spring 2026
+- Teaching Assistant of _ QT5104, Topics in Quantum Information_, Spring 2026
 
 = Miscellaneous
+
+- I enjoy giving back to the open-source ecosystem, and I am a contributor to many projects, including
+  #link("https://github.com/apache/thrift")[Apache Thrift],
+  #link("https://github.com/mastodon/mastodon")[Mastodon],
+  #link("https://github.com/matrix-org/synapse")[Matrix Synapse],
+  #link("https://github.com/python/typeshed")[Python typeshed],
+  and #link("https://github.com/redis-rs/redis-rs")[redis-rs].
+- Outside of research, my hobbies include hiking and cycling. I used to hike a lot before moving to Singapore.
 
 
 #elem(
