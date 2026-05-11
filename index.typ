@@ -19,7 +19,7 @@ I am a second-year PhD student at #link("https://www.cqt.sg/")[Centre for Quantu
 
 Previously, I received my bachelor's degree from the Department of Computer Science and Technology, Tsinghua University. Before starting my PhD, I spent several enjoyable years at Douban Inc. as a development engineer.
 
-My interests lie broadly in theoretical computer science and quantum computing, while I currently mainly work on quantum cryptography.
+My interests lie broadly in theoretical computer science and quantum computing, while I currently work mainly on quantum cryptography.
 
 
 [#link("files/CV.pdf")[CV]]
@@ -39,10 +39,10 @@ Rishabh Batra, Zhili Chen, Rahul Jain, and YaoNan Zhang \
 
 = Teaching
 
-- Teaching Assistant of _CS3268, Introduction to Information Theory_, Spring 2025
-- Teaching Assistant of _CS4236, Cryptography Theory and Practice_, Fall 2025
-- Teaching Assistant of _ CS4230/CS5430, Foundations of Cryptography_, Spring 2026
-- Teaching Assistant of _ QT5104, Topics in Quantum Information_, Spring 2026
+- Teaching Assistant for _CS3268, Introduction to Information Theory_, Spring 2025
+- Teaching Assistant for _CS4236, Cryptography Theory and Practice_, Fall 2025
+- Teaching Assistant for _CS4230/CS5430, Foundations of Cryptography_, Spring 2026
+- Teaching Assistant for _QT5104, Topics in Quantum Information_, Spring 2026
 
 = Miscellaneous
 
