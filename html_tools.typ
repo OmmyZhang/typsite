@@ -10,6 +10,7 @@
 
 #let html-container(
   page-heading: "",
+  page-footnote: none,
   doc,
 ) = context {
   if target() == "html" {
@@ -24,13 +25,12 @@
         class: "main-content",
         doc,
       )
-      elem(
-        class: "footnote",
-        [
-          This page is written in Typst with the experimental HTML feature.
-          View the plain text source #link("index.typ.txt")[here].
-        ],
-      )
+      if page-footnote != none {
+        elem(
+          class: "footnote",
+          page-footnote,
+        )
+      }
     })
   } else {
     doc

@@ -7,6 +7,9 @@
 )
 #show: html-container.with(
   page-heading: [#upper(surname) #given-name],
+  page-footnote: [
+    This page is written in Typst with the experimental HTML feature. View the plain text source #link("index.typ.txt")[here].
+  ],
 )
 
 
