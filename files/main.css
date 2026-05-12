@@ -5,9 +5,9 @@
 body {
     background: linear-gradient(
             -45deg,
-            #fdfdfa calc(50%),
-            #fbf1c7 50%,
-            #fdfdfa calc(50% + 0.5px)
+            #fefefd calc(50%),
+            #fdf8cd 50%,
+            #fefefd calc(50% + 0.5px)
         )
         0 0/7px 5px;
     padding: 0;
