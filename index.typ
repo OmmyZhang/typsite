@@ -24,21 +24,22 @@ Previously, I received my bachelor's degree from the Department of Computer Scie
 
 My interests lie broadly in theoretical computer science and quantum computing, while I currently work mainly on quantum cryptography.
 
-
+/*
 [#link("files/CV.pdf")[CV]]
 #elem(
   tag: "span",
   class: "checksum-label",
   [checksum: #raw("c0ffe")],
 )
+*/
 
-= Preprints & Publications
+= Publications
 
 *Scalable, quantum-accessible, and adaptive pseudorandom quantum state and pseudorandom function-like quantum state generators*, _CRYPTO 2026_ \
 Rishabh Batra, Zhili Chen, Rahul Jain, and YaoNan Zhang \
 
 
-= Talks
+// = Talks
 
 = Teaching
 
