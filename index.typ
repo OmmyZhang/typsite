@@ -36,7 +36,7 @@ My interests lie broadly in theoretical computer science and quantum computing, 
 = Publications
 
 *Scalable, quantum-accessible, and adaptive pseudorandom quantum state and pseudorandom function-like quantum state generators*, _CRYPTO 2026_ \
-Rishabh Batra, Zhili Chen, Rahul Jain, and YaoNan Zhang \
+Rishabh Batra, Zhili Chen, Rahul Jain, and YaoNan Zhang
 
 
 // = Talks
@@ -50,7 +50,7 @@ Rishabh Batra, Zhili Chen, Rahul Jain, and YaoNan Zhang \
 
 = Miscellaneous
 
-- I enjoy giving back to the open-source ecosystem, and I am a contributor to many projects, including
+- I enjoy giving back to the open-source ecosystem, and I am a contributor to many important projects, including
   #link("https://github.com/apache/thrift")[Apache Thrift],
   #link("https://github.com/mastodon/mastodon")[Mastodon],
   #link("https://github.com/matrix-org/synapse")[Matrix Synapse],
