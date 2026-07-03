@@ -43,10 +43,13 @@ Rishabh Batra, Zhili Chen, Rahul Jain, and YaoNan Zhang
 
 = Teaching
 
-- Teaching Assistant for _CS3268, Introduction to Information Theory_, Spring 2025
-- Teaching Assistant for _CS4236, Cryptography Theory and Practice_, Fall 2025
-- Teaching Assistant for _CS4230/CS5430, Foundations of Cryptography_, Spring 2026
-- Teaching Assistant for _QT5104, Topics in Quantum Information_, Spring 2026
+- Spring 2025\
+  Teaching Assistant for _CS3268, Introduction to Information Theory_
+- Fall 2025\
+  Teaching Assistant for _CS4236, Cryptography Theory and Practice_
+- Spring 2026\
+  Teaching Assistant for _CS4230/CS5430, Foundations of Cryptography_\
+  Teaching Assistant for _QT5104, Topics in Quantum Information_
 
 = Miscellaneous
 
