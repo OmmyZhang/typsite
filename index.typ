@@ -8,7 +8,7 @@
 #show: html-container.with(
   page-heading: [#upper(surname) #given-name],
   page-footnote: [
-    This page is written in Typst with the experimental HTML feature. View the source #link("https://github.com/OmmyZhang/typsite")[here] and feel free to steal it.
+    This page is written in Typst with the experimental HTML feature. View the source #link("https://github.com/OmmyZhang/typsite/blob/master/index.typ")[here] and feel free to steal it.
   ],
 )
 
