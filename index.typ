@@ -18,11 +18,12 @@
   html.frame(email),
 )
 
-I am a second-year PhD student at #link("https://www.cqt.sg/")[Centre for Quantum Technologies] (CQT), National University of Singapore. I am fortunate to be advised by #link("https://www.comp.nus.edu.sg/~rahul/")[Prof. Rahul Jain].
+I am a second-year PhD student at the #link("https://www.cqt.sg/")[Centre for Quantum Technologies] (CQT), National University of Singapore, where I am fortunate to be advised by #link("https://www.comp.nus.edu.sg/~rahul/")[Prof. Rahul Jain].
 
-Previously, I received my bachelor's degree from the Department of Computer Science and Technology, Tsinghua University. Before starting my PhD, I spent several enjoyable years at Douban Inc. as a development engineer.
+Before starting my PhD, I spent several enjoyable years at Douban Inc. as a development engineer.
+I received my bachelor's degree from the Department of Computer Science and Technology at Tsinghua University.
 
-My interests lie broadly in theoretical computer science and quantum computing, while I currently work mainly on quantum cryptography.
+My interests lie broadly in theoretical computer science and quantum computing, with a current focus on quantum cryptography.
 
 /*
 [#link("files/CV.pdf")[CV]]
