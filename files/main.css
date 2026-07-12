@@ -17,7 +17,7 @@ body {
 .container {
     max-width: 900px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: clamp(30px, 10vw, 80px) 20px 0;
     font-size: clamp(15px, 0.4vw + 13px, 17px);
     font-family: Inter, sans-serif;
     min-height: 100vh;
@@ -31,7 +31,7 @@ h1 {
     /*text-align: center;*/
     font-family: EBGaramond, serif;
     font-size: 2em;
-    margin: 1.25em 0 0.2em;
+    margin: 0 0 0.25em;
 }
 
 h2 {
@@ -73,7 +73,7 @@ ul {
         stroke-width: 0.2px; /* You may need to adjust this depending on the visual scale of your SVG */
 
         /* 3. Your animation properties */
-        stroke-dasharray: 50;
+        stroke-dasharray: 100;
 
         animation: eraseAndRedraw 2s ease-in-out forwards;
     }
@@ -102,9 +102,9 @@ ul {
         fill-opacity: 0;
     }
 
-    48%,
-    52% {
-        stroke-dashoffset: 50;
+    44%,
+    56% {
+        stroke-dashoffset: 100;
         stroke-opacity: 1;
         fill-opacity: 0;
     }
