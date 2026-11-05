@@ -42,9 +42,9 @@ My interests lie broadly in theoretical computer science and quantum computing, 
 Rishabh Batra, Zhili Chen, Rahul Jain, and YaoNan Zhang \
 [#link("https://arxiv.org/abs/2610.01421")[preprint]]
 
-*Scalable, quantum-accessible, and adaptive pseudorandom quantum state and pseudorandom function-like quantum state generators*, _Crypto 2026_ \
+*Scalable, quantum-accessible, and adaptive pseudorandom quantum state and pseudorandom function-like quantum state generators* \
 Rishabh Batra, Zhili Chen, Rahul Jain, and YaoNan Zhang \
-[#link("https://eprint.iacr.org/2026/1206.pdf")[full version]] [#link("https://link.springer.com/chapter/10.1007/978-3-032-35409-9_8")[conference version]]
+_Crypto 2026_ · [#link("https://eprint.iacr.org/2026/1206.pdf")[full~version]] [#link("https://link.springer.com/chapter/10.1007/978-3-032-35409-9_8")[conference~version]]
 
 
 // = Talks
