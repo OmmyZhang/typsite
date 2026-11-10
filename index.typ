@@ -21,7 +21,7 @@
 I am a third-year PhD student at the #link("https://www.cqt.sg/")[Centre for Quantum Technologies] (CQT), National University of Singapore, where I am fortunate to be advised by #link("https://www.comp.nus.edu.sg/~rahul/")[Prof. Rahul Jain].
 
 Before starting my PhD, I spent several enjoyable years at Douban Inc. as a development engineer.
-I received my bachelor's degree from the Department of Computer Science and Technology at Tsinghua University.
+I received my bachelor's degree from the #link("https://www.cs.tsinghua.edu.cn/csen/")[Department of Computer Science and Technology at Tsinghua University].
 
 My interests lie broadly in theoretical computer science and quantum computing, with a current focus on quantum cryptography.
 
@@ -61,7 +61,7 @@ _Crypto 2026_ · [#link("https://eprint.iacr.org/2026/1206.pdf")[full~version]] 
 
 = Miscellaneous
 
-- I enjoy giving back to the open-source ecosystem, and I am a contributor to many important projects, including
+- I enjoy giving back to the open-source ecosystem. I am a contributor to many projects, including
   #link("https://github.com/apache/thrift")[Apache Thrift],
   #link("https://github.com/mastodon/mastodon")[Mastodon],
   #link("https://github.com/matrix-org/synapse")[Matrix Synapse],
